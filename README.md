@@ -76,6 +76,19 @@ React.Component 에서 사용하는 유일한 function은 render function이다.
     - 비동기 함수 이용 async await
 
 ---
+## gh-pages
+: 나의 웹사이트를 github의 github page 도메인에 나타나게 해준다.
+```
+https://{your github username}.github.io/{the name of your project in github}
+```
+- 프로젝트명 및 username 모두 소문자다.
+-> package.json 에 홈페이지를 추가하여 입력한다.
+
+- deploy : build 폴더를 upload 한다.
+    - build 폴더를 얻는 방법은 npm run build를 실행시키는 것이다.
+    - npm run build를 실행하면 우리에게 build 폴더를 제공한다.
+- predeploy : deploy를 먼저 호출하기 전 자동적으로 실행된다.
+---
 ## Link
 : ` <a  href > `가 리액트에서 실행시에 home 클릭시 전체 페이지가 새로고침 되버린다.
 -> import Link 를 이용한다.
