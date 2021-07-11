@@ -1,6 +1,8 @@
 # Movie app
 React JS Fundamentals
 
+![reactjs](https://user-images.githubusercontent.com/38060979/125201239-29965300-e2a9-11eb-8543-47993309d712.png)
+
 
 --- 
 ## Component
